@@ -1,0 +1,69 @@
+/* header works  */
+body {
+    font-family: Open Sans;
+    margin: 0px;
+}
+
+/* heading */
+.header {
+    background-color:#FFF8F3;
+}
+
+nav {
+    margin: 0px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.j {
+    color: rgb(236, 130, 9);
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin: 20px;
+}
+
+a{
+    text-decoration: none;
+    color:black
+}
+
+/* button works */
+
+.hire-button{
+    background-color: rgb(222, 109, 69);
+    font-size: small;
+    font-weight: 700;
+    color:white;
+    border:none;
+    border-radius: 2px;
+    padding:10px 17px;
+}
+.hire-button:hover{
+    background-color: white;
+    color: rgb(236, 130, 9);
+    transition: 0.7s;
+}
+.hire-button:active{
+    border-style: dotted;
+    border-color: black;
+    border-width: 2px;
+}
+
+/* banner works */
+
+.banner{
+    padding: 30px 30px 30px 200px;
+}
+
+.width{
+    max-width: 400px;
+    margin: 0px 0px 20px 0px;
+}
